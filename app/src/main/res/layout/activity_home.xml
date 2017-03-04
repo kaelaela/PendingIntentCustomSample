@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+    <Button
+            android:id="@+id/move_to_next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="move to next"
+            android:layout_marginBottom="24dp"
+            />
+
+    <Button
+            android:id="@+id/normal_noti_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="show normal notification"
+            android:layout_marginBottom="24dp"
+            />
+
+    <Button
+            android:id="@+id/custom_noti_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="show custom notification"
+            />
+
+</LinearLayout>
